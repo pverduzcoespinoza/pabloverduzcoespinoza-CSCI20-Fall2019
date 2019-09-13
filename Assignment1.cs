@@ -1,6 +1,7 @@
 // Pablo Verduzco
 // 9/10/19
-// This program will take the average amount of slices that each person will eat, slices per pizza, and the price of each pizza and will tell you how many pizzas you should buy, the total price, and how much each person will pay.
+// This program will take the average amount of slices that each person will eat, slices per pizza,
+// and the price of each pizza and will tell you how many pizzas you should buy, the total price, and how much each person will pay.
 
 using System;
 class MainClass {
@@ -37,6 +38,6 @@ class MainClass {
     //Display results
     Console.WriteLine ("You should buy " + numpizzas +" pizzas.");
     Console.WriteLine ("The total price will be $" + totalprice + ".");
-    Console.WriteLine ("Each person will pay $" + priceperperson + ".");
+    Console.WriteLine ("Each person will pay $" + priceperperson);
   }
 }
