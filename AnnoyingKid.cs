@@ -1,18 +1,23 @@
+//Pablo Verduzco
+//9/24/19
+//This program takes the user input of hours and writes "Are we there yet" that many times.
 using System;
 
 class MainClass {
   public static void Main () {
-    int a;
-    string at;
+    int hours;
+    string hoursstr;
 
     Console.WriteLine ("You are in a long roadtrip with your kid");
     Console.WriteLine ("How many hours long is the trip?");
 
-    at = Console.ReadLine ();
-    a = int.Parse (at);
-    while (a>0) {
+    hoursstr = Console.ReadLine ();
+    hours = int.Parse (hours);
+
+    //this loop writes out "Are we there yet" then subtracts the 1 from the hours.
+    while (hours>0) //repeats until hours is 0 {
       Console.WriteLine ("Are we there yet");
-      a--;
+      hours--;
     }
   }
 }
