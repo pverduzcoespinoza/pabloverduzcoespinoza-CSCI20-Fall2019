@@ -12,10 +12,10 @@ class MainClass {
     Console.WriteLine ("How many hours long is the trip?");
 
     hoursstr = Console.ReadLine ();
-    hours = int.Parse (hours);
+    hours = int.Parse (hoursstr);
 
     //this loop writes out "Are we there yet" then subtracts the 1 from the hours.
-    while (hours>0) //repeats until hours is 0 {
+    while (hours>0) { //repeats until hours is 0
       Console.WriteLine ("Are we there yet");
       hours--;
     }
